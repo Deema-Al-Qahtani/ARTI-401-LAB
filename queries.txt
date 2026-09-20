@@ -1,0 +1,29 @@
+2 ?- father(theeb, abdulrahman).
+true.
+
+3 ?- father(theeb, deema).
+true.
+
+4 ?- mother(zafira, hussein).
+true.
+
+5 ?- mother(zafira, asma).
+true.
+
+6 ?- sister(deema, asma).
+true .
+
+7 ?- sister(deema, abdulrahman).
+true .
+
+8 ?- brother(abdulrahman, hussein). 
+true .
+
+9 ?- brother(abdulrahman, asma).
+true .
+
+10 ?- brother(abdulrahman, abdulrahman).
+false.
+
+11 ?- sister(deema, deema).
+false.
